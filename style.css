@@ -55,6 +55,9 @@ body {
 }
 
 .apresentacao__links__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border: 2px solid #22D4FD;
@@ -65,4 +68,8 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 24px;
+}
+
+.apresentacao__links__botoes:hover {
+    background-color: #272727;
 }
