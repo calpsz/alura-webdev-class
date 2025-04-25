@@ -12,11 +12,20 @@ body {
 }
 
 .cabecalho {
-    padding: 65px 15%;
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
 }
 
 .cabecalho__menu__link {
-    padding: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD;
+    text-decoration: none;
 }
 
 
@@ -25,7 +34,7 @@ body {
 }
 
 .apresentacao {
-    padding: 8% 15%; /*horizontal/vertical*/
+    padding: 5% 15%; /*horizontal/vertical*/
     display: flex; /*"separa" os conteúdos filhos em colunas lado a lado*/
     align-items: center; /*centraliza os elementos com base neles mesmos, n centraliza em relação a tela*/
     justify-content: space-between; /*joga um pro lado, outro pro outro, basicamente*/
